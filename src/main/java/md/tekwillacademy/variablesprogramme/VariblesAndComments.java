@@ -1,8 +1,6 @@
-package md.tekwillacademy;
+package md.tekwillacademy.variablesprogramme;
 
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
-public class Main {
+public class VariblesAndComments {
     public static void main(String[] args) {
         //Declare the variables
 
@@ -43,5 +41,11 @@ public class Main {
         productionYear = 2023;
         numberOfOwners = 0;
         id = 54661651654L ;
+        operatingSystemVersion = 16.16F;
+        price = 34550.5F;
+
+        System.out.println("The phone is charged " + isCharged);
+
+        System.out.println("The phone price is " + price);
     }
 }
